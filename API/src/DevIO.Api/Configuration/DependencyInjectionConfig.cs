@@ -1,5 +1,7 @@
 ﻿using DevIO.Api.Extensions;
 using DevIO.Business.Intefaces;
+using DevIO.Business.Intefaces.Repositorios;
+using DevIO.Business.Intefaces.Servicos;
 using DevIO.Business.Notificacoes;
 using DevIO.Business.Services;
 using DevIO.Data.Context;
@@ -16,13 +18,16 @@ namespace DevIO.Api.Configuration
         public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
             services.AddScoped<MeuDbContext>();
+
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+            services.AddScoped<IInquilinoRepository, InquilinoRepository>();
 
             services.AddScoped<INotificador, Notificador>();
             services.AddScoped<IFornecedorService, FornecedorService>();
             services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<IInquilinoService, InquilinoService>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<IUser, AspNetUser>();
@@ -31,5 +36,6 @@ namespace DevIO.Api.Configuration
 
             return services;
         }
+
     }
 }

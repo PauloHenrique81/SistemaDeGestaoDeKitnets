@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using DevIO.Business.Models;
 
-namespace DevIO.Business.Intefaces
+namespace DevIO.Business.Intefaces.Repositorios
 {
     public interface IProdutoRepository : IRepository<Produto>
     {

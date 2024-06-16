@@ -7,6 +7,8 @@ using DevIO.Api.Controllers;
 using DevIO.Api.Extensions;
 using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
+using DevIO.Business.Intefaces.Repositorios;
+using DevIO.Business.Intefaces.Servicos;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

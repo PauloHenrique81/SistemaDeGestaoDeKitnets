@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using DevIO.Business.Models;
 
-namespace DevIO.Business.Intefaces
+namespace DevIO.Business.Intefaces.Servicos
 {
     public interface IFornecedorService : IDisposable
     {

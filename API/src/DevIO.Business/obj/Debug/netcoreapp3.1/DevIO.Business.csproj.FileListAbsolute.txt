@@ -18,3 +18,13 @@ C:\dev\Projetos Pessoais\ResidencialAnvi\API\src\DevIO.Business\obj\Debug\netcor
 C:\dev\Projetos Pessoais\ResidencialAnvi\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.CoreCompileInputs.cache
 C:\dev\Projetos Pessoais\ResidencialAnvi\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.dll
 C:\dev\Projetos Pessoais\ResidencialAnvi\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.AssemblyReference.cache
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.AssemblyInfoInputs.cache
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.AssemblyInfo.cs
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\obj\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.deps.json
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\dev\Projetos Pessoais\SistemaDegestaoDeKitnets\API\src\DevIO.Business\bin\Debug\netcoreapp3.1\DevIO.Business.pdb

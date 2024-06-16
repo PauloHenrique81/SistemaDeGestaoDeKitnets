@@ -9,11 +9,22 @@ namespace DevIO.Data.Context
 {
     public class MeuDbContext : DbContext
     {
+        public MeuDbContext() : base() { }
         public MeuDbContext(DbContextOptions<MeuDbContext> options) : base(options) { }
 
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
         public DbSet<Fornecedor> Fornecedores { get; set; }
+        public DbSet<Inquilino> Inquilinos { get; set; }
+
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=PAULOHENRIQUE\\SQLEXPRESS;Database=ResidencialAnviBD;Trusted_Connection=True;MultipleActiveResultSets=true");
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

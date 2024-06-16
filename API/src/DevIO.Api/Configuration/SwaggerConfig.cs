@@ -83,10 +83,10 @@ namespace DevIO.Api.Configuration
         {
             var info = new OpenApiInfo()
             {
-                Title = "API - desenvolvedor.io",
+                Title = "API - SistemaDeGestaoDeKitnets",
                 Version = description.ApiVersion.ToString(),
-                Description = "Esta API faz parte do curso Desenvolvimento Avançado com Angular.",
-                Contact = new OpenApiContact() { Name = "Eduardo Pires", Email = "contato@desenvolvedor.io" },
+                Description = "API do sistema de gestão de kitnets (MinhasKitnets).",
+                Contact = new OpenApiContact() { Name = "Paulo Henrique", Email = "paulohenriqu81@gmail.com" },
                 License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
             };
 

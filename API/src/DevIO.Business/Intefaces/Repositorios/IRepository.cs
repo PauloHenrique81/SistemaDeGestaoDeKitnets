@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using DevIO.Business.Models;
 
-namespace DevIO.Business.Intefaces
+namespace DevIO.Business.Intefaces.Repositorios
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : Entity
     {
