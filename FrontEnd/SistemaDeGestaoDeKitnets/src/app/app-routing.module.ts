@@ -16,6 +16,11 @@ const routes: Routes = [
     loadChildren: () => import('./fornecedor/fornecedor.module')
       .then(m => m.FornecedorModule)
   },
+  {
+    path: 'inquilinos',
+    loadChildren: () => import('./inquilino/inquilino.module')
+      .then(m => m.InquilinoModule)
+  },
   { path: 'nao-encontrado', component: NotFoundComponent},
   { path: 'acesso-negado', component: AcessoNegadoComponent},
   { path: '**', component: NotFoundComponent}
